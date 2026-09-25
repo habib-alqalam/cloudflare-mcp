@@ -48,7 +48,7 @@ Precedence: process environment, then `.env` in the working directory, then `.en
 Claude Code:
 
 ```bash
-claude mcp add cloudflare -- npx cloudflare-mcp
+claude mcp add cloudflare -- npx @habib-alqalam/cloudflare-mcp
 ```
 
 Any client that reads a JSON config:
@@ -58,7 +58,7 @@ Any client that reads a JSON config:
   "mcpServers": {
     "cloudflare": {
       "command": "npx",
-      "args": ["cloudflare-mcp"],
+      "args": ["@habib-alqalam/cloudflare-mcp"],
       "env": { "CLOUDFLARE_API_TOKEN": "..." }
     }
   }

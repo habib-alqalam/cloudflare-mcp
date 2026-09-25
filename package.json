@@ -1,6 +1,9 @@
 {
-  "name": "cloudflare-mcp",
+  "name": "@habib-alqalam/cloudflare-mcp",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Zero-dependency Model Context Protocol (MCP) server for Cloudflare — DNS, zones, cache, and a universal API v4 escape hatch, with confirm-gated destructive operations.",
   "type": "module",
   "bin": {
