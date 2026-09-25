@@ -37,7 +37,7 @@
   "author": "Habib Mohammed Babul (https://alqalamai.ae)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/habib-alqalam/cloudflare-mcp.git"
+    "url": "git+https://github.com/habib-alqalam/cloudflare-mcp.git"
   },
   "dependencies": {}
 }
