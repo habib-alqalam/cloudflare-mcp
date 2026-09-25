@@ -1,0 +1,40 @@
+{
+  "name": "cloudflare-mcp",
+  "version": "1.0.0",
+  "description": "Zero-dependency Model Context Protocol (MCP) server for Cloudflare — DNS, zones, cache, and a universal API v4 escape hatch, with confirm-gated destructive operations.",
+  "type": "module",
+  "bin": {
+    "cloudflare-mcp": "index.mjs"
+  },
+  "main": "index.mjs",
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE",
+    ".env.example"
+  ],
+  "scripts": {
+    "start": "node index.mjs",
+    "smoke": "node scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "cloudflare",
+    "dns",
+    "dns-management",
+    "cache",
+    "json-rpc",
+    "infrastructure"
+  ],
+  "license": "MIT",
+  "author": "Habib Mohammed Babul (https://alqalamai.ae)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/habib-alqalam/cloudflare-mcp.git"
+  },
+  "dependencies": {}
+}

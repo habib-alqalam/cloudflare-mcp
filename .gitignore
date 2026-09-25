@@ -1,0 +1,18 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+credentials.env
+*.pem
+*.key
+
+# node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
