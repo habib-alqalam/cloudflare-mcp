@@ -1,5 +1,5 @@
 {
-  "name": "@habib-alqalam/cloudflare-mcp",
+  "name": "@habib1/cloudflare-mcp",
   "version": "1.0.0",
   "publishConfig": {
     "access": "public"
